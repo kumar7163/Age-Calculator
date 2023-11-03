@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 5% auto;
+    border: 0.5px solid grey;
+    padding: 15px;
+    height: 50vmin;
+    width: 50vmax;
+    box-shadow: 2px 2px 2px 2px rgb(180, 179, 179);
+    text-align: center;
+
+}
+.container h1, h2, h4{
+    padding:20px;
+}
+.container input, button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.container input{
+    width: 55%;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+.container button{
+    border-radius: 5px;
+    background-color: rgb(44, 44, 245);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
